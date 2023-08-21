@@ -18,4 +18,12 @@ describe('ModalComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+
+
 });
+
+
+
+
+
