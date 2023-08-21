@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 
 export class ModalService {
-  private visible = false ;
+  public  visible = false ;
 
   constructor( ) { }
 

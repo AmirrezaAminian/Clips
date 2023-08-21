@@ -15,6 +15,10 @@ export class ModalComponent {
      
   }
 
+  closeModal(){
+      this.modal.toggleModal()
+  }
+
 }
 
 
