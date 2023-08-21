@@ -7,13 +7,12 @@ import { ModalService } from 'src/app/services/modal.service';
   templateUrl: './modal.component.html',
   styleUrls: ['./modal.component.css'] ,
   // providers:[ModalService]
-  
+
 })
 export class ModalComponent {
 
-  constructor(private modal : ModalService ){
-      console.log(modal.visible);
-      
+  constructor(public modal : ModalService){
+     
   }
 
 }
