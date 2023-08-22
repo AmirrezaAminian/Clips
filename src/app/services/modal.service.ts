@@ -11,7 +11,7 @@ interface IModal {
 })
 
 export class ModalService {
-  public modals : IModal[] =  []
+  private  modals : IModal[] =  []
   
   // public  visible = false ;
 
@@ -25,7 +25,13 @@ export class ModalService {
       visible : false
     })
     console.log(this.modals);
-    
+  }
+
+
+  unregister(id:string){
+    this.modals = this.modals.filter(
+      el => el.id !== id
+    )
   }
 
 
